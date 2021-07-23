@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ThirdPartyTools\ThirdPartyTools.csproj">
+      <Project>{510149c0-2b4d-4f90-ba91-26bd0bbdd0f6}</Project>
+      <Name>ThirdPartyTools</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
