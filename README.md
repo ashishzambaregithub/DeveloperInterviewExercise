@@ -32,6 +32,6 @@ The prototype has been well received by the business who now want a full version
 The new requirements are (in no particular order):
 * To call `FileDetails.Version` if the first argument is either of `-v`, `--v`, `/v`, `--version`
 * To call `FileDetails.Size` if the first argument is either of `-s`, `--s`, `/s`, `--size`
-* Production ready (TDD, unit tests, extensible, error handline etc. )
+* Production ready (TDD, unit tests, extensible, error handling etc. )
 
 ---------
