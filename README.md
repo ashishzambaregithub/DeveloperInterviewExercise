@@ -39,9 +39,10 @@ The new requirements are (in no particular order):
 * To call `FileDetails.Size` if the first argument is either of `-s`, `--s`, `/s`, `--size`
 
 ---------
-
-### Please ensure proper unit tests are in place for your code changes. You can add additional packages(XUnit,NUnit etc) in the project to support unit tests
-
+```diff
+- Please ensure proper unit tests are in place for your code changes. 
+- You can add additional packages(XUnit,NUnit etc) in the project to support unit tests
+```
 * You need to ensure the console app is Production ready (TDD, unit tests, extensible, error handling etc. )
 * Use SOLID principles
 
