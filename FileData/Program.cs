@@ -9,6 +9,9 @@ namespace FileData
     {
         public static void Main(string[] args)
         {
+            string strVersion = args[0];
+            string strSize = args[1];
+
         }
     }
 }
